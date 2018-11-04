@@ -1,0 +1,15 @@
+{
+  "name": "greek-random-names",
+  "version": "1.0.0",
+  "description": "Greek random names generator",
+  "main": "index.js",
+  "scripts": {
+    "homepage": "https://dionweb.github.io/Greek-Random-Names",
+    "deploy": "gh-pages -d src"
+  },
+  "author": "Tsentidis Dionysios",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
