@@ -6,26 +6,21 @@ body{
     margin: 0;
     padding: 15px 30px;
     font-family: 'Roboto', sans-serif;
-    background-color: #53cde2;
+    background-image: linear-gradient(to right, #53cde2, #2dafd2, #0191bf, #0074aa, #005792);
 }
 
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
-    border-radius: 20px;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 0px 2px 49px -1px rgba(0,88,146,1);
-    -moz-box-shadow: 0px 2px 49px -1px rgba(0,88,146,1);
-    box-shadow: 0px 2px 49px -1px rgba(0,88,146,1);
 }
 
 .fill{
-    background-color: #d1f4fa;
     min-height: 60px;
     text-align: center;
     padding: 8px;
@@ -39,11 +34,11 @@ body{
 }
 
 select, button{
-    background: transparent;
-    color: #005792;
+    background-color: #53cde2;
+    color: #edf9fc;
+    font-size: 18px;
     border: 0;
     outline: 0;
-    border: 2px solid #53cde2;
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
     border-radius: 80px;
@@ -56,16 +51,17 @@ select:focus{
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    background-color: #edf9fc;
+    color: #53cde2;
 }
 
-button:hover{
-    background-color: #53cde2;
-    color: #edf9fc;
+select:hover, button:hover{
+    background-color: #edf9fc;
+    color: #53cde2;
 }
 
 .randomname{
     position: relative;
-    background-color: #edf9fc; 
     min-height: 250px;
 }
 
@@ -75,19 +71,19 @@ button:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #005792;
+    color: #edf9fc;
     font-size: 25px;
 }
 
 .footer p{
     margin: 20px;    
     text-align: center;
-    color: #005792;
-   font-size: 18px;
+    color: #edf9fc;
+    font-size: 18px;
 }
 
 .footer p span{
-    color: #edf9fc;
+    color: #53cde2;
 }
 
 .footer p a{
@@ -106,13 +102,15 @@ button:hover{
         display: block;
         margin: 10px auto;
         width: 300px;
-
+    }
+    button{
+        text-align: left;
     }
 }
 
 @media only screen and (max-width: 430px) {
     .fill *{
-        width: 200px;
+        width: 230px;
     }
 
     body{
@@ -120,8 +118,8 @@ button:hover{
     }
 
     .container{
-        border-radius: 0;
         height: 100vh;
+        background-image: linear-gradient(to right, #53cde2, #2dafd2, #0191bf, #0074aa, #005792);
     }
 
     .randomname{
