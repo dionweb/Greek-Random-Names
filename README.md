@@ -1,7 +1,7 @@
 # Greek random names
 A name generator
 
-![alt text](https://raw.githubusercontent.com/dionweb/Greek-Random-Names/master/src/mockup.jpg?token=AmkViTveQmdmKo2dwjeDbU5G8Q94DJFoks5b6FNtwA%3D%3D)
+![alt text](https://raw.githubusercontent.com/dionweb/Greek-Random-Names/master/src/mockup.png?token=AmkVieDxqdWolEhS1cFcKTaMfR6GMegsks5b6rGFwA%3D%3D)
 
 ## Clone
 ```
