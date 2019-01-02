@@ -4,20 +4,16 @@
 
 body{
     margin: 0;
-    padding: 15px 30px;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right, #53cde2, #2dafd2, #0191bf, #0074aa, #005792);
 }
 
 .container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .fill{
@@ -118,7 +114,6 @@ select:hover, button:hover{
     }
 
     .container{
-        height: 100vh;
         background-image: linear-gradient(to right, #53cde2, #2dafd2, #0191bf, #0074aa, #005792);
     }
 
