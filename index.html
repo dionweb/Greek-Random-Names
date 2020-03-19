@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,43 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Greek names generator</title>
 </head>
-<body>
 
+<body>
     <div class="container">
-        <div class="fill">
-            <select name="gender" id="gender">
-                <option value="null" disabled selected>Gender</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="idontcare">I don't care</option>
-            </select>
-            <select name="popularity" id="popularity">
-                <option value="null" disabled selected>Popularity</option>
-                <option value="popular">Popular</option>
-                <option value="rare">Rare</option>
-                <option value="ancient">Ancient</option>
-                <option value="idontcare">I don't care</option>
-            </select>
-            <button onclick="generateName()">Generate</button>
-        </div>
-        <div class="randomname">
-            <div id="result">
-                <div class="hello">
-                    <p>Hello, <br> select a category and get a random Greek name.</p>
+        <div class="wrapper">
+            <div class="fill">
+                <select name="gender" id="gender">
+                    <option value="null" disabled selected>Gender &#8600;</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="idontcare">I don't care</option>
+                </select>
+                <select name="popularity" id="popularity">
+                    <option value="null" disabled selected>Popularity &#8600;</option>
+                    <option value="popular">Popular</option>
+                    <option value="rare">Rare</option>
+                    <option value="ancient">Ancient</option>
+                    <option value="idontcare">I don't care</option>
+                </select>
+                <button onclick="generateName()">Generate &#8594;</button>
+            </div>
+            <div class="randomname">
+                <div id="result">
+                    <div class="hello">
+                        <p>Hello, <br> select a category and get a random Greek name.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer">
-                <p> &copy; 2018 Greek random names! Created by  <a href="https://www.dionweb.me"><span>DionWeb</span></a>!</p>
+            <div class="footer">
+                <p> &copy; 2018-2020 Greek random names! Created by <a
+                        href="https://www.dionweb.me"><span>DionWeb</span></a>!
+                </p>
+            </div>
         </div>
     </div>
 
     <script src="js/main.js"></script>
-    
+
 </body>
+
 </html>
