@@ -10,6 +10,6 @@
   "author": "Tsentidis Dionysios",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
